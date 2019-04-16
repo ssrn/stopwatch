@@ -1,0 +1,12 @@
+.btn {
+  padding: 4px 16px;
+  font-size: 16px;
+}
+
+.btn span {
+  display: flex;
+}
+
+.btn.disabled svg {
+  opacity: .5;
+}

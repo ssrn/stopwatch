@@ -1,33 +1,75 @@
-.App {
+body {
+  font-size: 16px;
+}
+
+td {
+  padding: 2px 6px;
+}
+
+tbody tr:last-child td {
+  border-bottom: 1px solid #ccc;
+}
+
+.timer__container {
+  max-width: 500px;
+  margin: 32px auto;
+}
+
+.timer__time {
+  margin-bottom: 8px;
+  font-size: 32px;
+  font-weight: bolder;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.timer__wrap {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.timer__current-lap {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.timer__current-lap-time {
+  padding-right: 10px;
+  text-align: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.timer__current-lap-name {
+  padding-left: 10px;
+  border: none;
+}
+
+.timer__controls {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.icon__start svg {
+  width: 16px;
+  height: 16px;
+}
+
+.icon__pause svg {
+  width: 16px;
+  height: 16px;
+}
+
+.icon__reset svg {
+  width: 16px;
+  height: 16px;
+}
+
+.timer__controls button:first-child {
+  margin-right: 10px;
+}
+
+.timer__laps {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.timer__total {
+  font-weight: bold;
 }

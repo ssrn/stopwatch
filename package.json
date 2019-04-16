@@ -1,11 +1,15 @@
 {
-  "name": "timer",
+  "name": "stopwatch",
   "version": "0.1.0",
-  "private": true,
+  "author": "Kondratyeva Svetlana <pe6i.is4o@gmail.com>",
+  "license": "ISC",
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-scripts": "2.1.8"
+    "react-inlinesvg": "^0.8.4",
+    "react-scripts": "2.1.8",
+    "shortid": "^2.2.14",
   },
   "scripts": {
     "start": "react-scripts start",
